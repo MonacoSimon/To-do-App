@@ -416,3 +416,11 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# =========================
+# Django / Python
+# =========================
+venv/
+.env
+__pycache__/
+*.pyc
+db.sqlite3
