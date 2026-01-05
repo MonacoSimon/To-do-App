@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
 # Create your views here.
 
@@ -6,7 +7,7 @@ def crear_tarea(request):
     pass
 
 def listar_tareas(request):
-    pass            
+    return render(request, 'gestor/base.html')    
 
 def actualizar_tarea(request, tarea_id):
     pass
